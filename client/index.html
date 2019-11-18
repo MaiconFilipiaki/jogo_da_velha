@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            width: 345px;
+            margin: 0 auto;
+        }
+        .borda {
+            margin: auto;
+        }
+        .borda button {
+            height: 100px;
+            width: 100px;
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <div class="borda">
+        <button id="a0"></button> <button id="a1"></button><button id="a2"></button>
+        <button id="b0"></button> <button id="b1"></button><button id="b2"></button>
+        <button id="c0"></button> <button id="c1"></button><button id="c2"></button>
+        <div id="mensagem">Aguardando o adversario jogar</div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
